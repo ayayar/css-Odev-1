@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    font-family:'Open-Sans',sans-serif ;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 5%;
+    text-align: center;
+    
+    background:linear-gradient(50deg, rgba(102, 93, 89, 0.75), transparent 50%),
+    linear-gradient(140deg, rgba(211, 212, 108, 0.75), transparent 70%),
+    linear-gradient(200deg, rgba(247, 3, 3, 0.75), transparent 80%);
+    background-attachment: fixed;
+}
+
+/*Header start*/
+.logo{
+    padding: 15px 0;
+    color: #f1f1f1;
+}
+nav ul{
+    width: 320px;
+    margin: 10px auto;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.menu{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.active {
+    color:blueviolet ;
+    border-bottom: 2px solid blueviolet;
+    font-weight: 500;
+}
+/*header end*/
+/*Main  start */
+.main-title{
+    color: blueviolet;
+    font-size: 25px;
+}
+.red-title{
+    color: red;
+    font-size: 20px;
+}
+.main-list{
+    list-style-position: inside;
+    text-align: center;
+}
+/*main end */
+
+/*product start*/
+.product-title{
+    font-size: 25px;
+    color: blueviolet;
+    padding-bottom: 20px;
+}
+
+
+.products{
+    width: 420px;
+  margin: 0 auto;
+}
+img {
+    width: 250px;
+    height: 250px;
+  }
+  
+
+.product{
+    padding: 11px;
+}
+ol{
+   text-align: center;
+   list-style-position: inside;
+}
+/*porducts- end*/
+
+/*about us */
+.title-about{
+    color: blueviolet;
+    font-size: 30px;
+}
+.text{
+    text-align: justify;
+}
+.title-second{
+    text-align: justify;
+    margin: 15px;
+    color: #084594;
+}
+article{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 7px;
+    padding: 15px;
+    margin: 10px auto;
+}
+/*about us end*/
+
+/*Footer start*/
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
